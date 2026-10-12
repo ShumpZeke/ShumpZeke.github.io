@@ -1,6 +1,6 @@
 // Generated at build time. Makes DueRadar open and work with no network.
-const CACHE = "dueradar-f519752452";
-const FILES = ["/","/manifest.webmanifest","/icon.svg","/icon-192.png","/assets/index-BCZ6ksMz.js","/assets/index-DL24NKUF.css"];
+const CACHE = "dueradar-595ec04b1d";
+const FILES = ["/","/manifest.webmanifest","/icon.svg","/icon-192.png","/assets/index-WuEod7wz.js","/assets/index-DL24NKUF.css"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
